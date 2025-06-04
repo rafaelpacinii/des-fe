@@ -1,0 +1,131 @@
+/* Remoção dos estilos padrões */
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, 
+    blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, 
+    img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, 
+    i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, 
+    caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, 
+    embed, figure, figcaption, footer, header, hgroup, menu, nav, output, 
+    ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  font-family: Arial, Helvetica, sans-serif;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, 
+    nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Estilos da atividade */
+
+body {
+  background-color: rgb(32, 32, 32);
+  color: white;
+}
+
+.estilo-padrao{
+  padding: 2rem 4rem;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  gap: 1rem;
+}
+
+header nav ul a {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+
+header nav ul a:hover {
+  color: #e3000b;
+  transition: ease-in 0.15s;
+}
+
+#inicio {
+  text-align: center;
+}
+
+#inicio h1{
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+#inicio p {
+  color: rgb(224, 224, 224);
+}
+
+#filmes {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+#filmes h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.filme {
+  display: flex;
+  gap: 3rem;
+  padding: 3rem;
+  background-color: rgb(53, 53, 53);
+  border-radius: 15px;
+}
+
+.filme .texto{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.filme h3 {
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+.filme .item-filme {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.filme .item-filme h4 {
+  font-weight: 700;
+}
