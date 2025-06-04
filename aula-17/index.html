@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consultar CEP</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <form id="consulta">
-        <label for="cep">CEP: </label>
-        <input id="cep" type="text">
-        <button type="submit">Consultar CEP</button>
-    </form>
-    <div id="resultado"></div>
+    <main id="container">
+        <form id="consulta">
+            <h1>Encontre o seu endereço</h1>
+            <input id="cep" type="text" placeholder="Buscar CEP...">
+            <button type="submit">Consultar</button>
+        </form>
+        <div id="resultado"></div>
+    </main>
     <script src="index.js"></script>
 </body>
